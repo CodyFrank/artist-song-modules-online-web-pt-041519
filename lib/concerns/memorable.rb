@@ -1,4 +1,4 @@
-module Memorable
+module M
 
   def self.reset_all
     self.all.clear
