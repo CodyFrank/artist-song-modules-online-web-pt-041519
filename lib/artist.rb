@@ -12,7 +12,8 @@ class Artist
   @@artists = []
 
   def initialize
-    @@artists << self
+    # @@artists << self
+    super
     @songs = []
   end
 
@@ -35,3 +36,4 @@ class Artist
   #   name.downcase.gsub(' ', '-')
   # end
 end
+# 
